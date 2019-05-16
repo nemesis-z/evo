@@ -1,0 +1,7 @@
+.intro_anim {
+  position: relative;
+  :global(.is-js_no) & {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}

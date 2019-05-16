@@ -1,0 +1,7 @@
+.animated_card {
+  position: relative;
+  will-change: transform;
+  &:hover {
+    z-index: 5;
+  }
+}

@@ -1,0 +1,7 @@
+.animated_height {
+  overflow: hidden;
+  will-change: height;
+  :global(.is-js_no) & {
+    height: auto !important;
+  }
+}
